@@ -16,6 +16,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/onc
 
 PRODUCT_PACKAGES += \
+    libantradio \
     libgpustats
 
 PRODUCT_COPY_FILES += \
