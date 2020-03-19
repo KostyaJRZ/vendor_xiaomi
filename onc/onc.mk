@@ -14,3 +14,6 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/onc
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system,$(TARGET_COPY_OUT_SYSTEM))
